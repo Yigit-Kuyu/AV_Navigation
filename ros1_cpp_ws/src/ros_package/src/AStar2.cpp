@@ -107,13 +107,12 @@ void PathFinder::clear()
 
 
 CoordinateList PathFinder::findPath(Coord2D startPos, Coord2D goalPos, int bidrectional=0)
-{
+{    
+    int kk=-1;
     if (bidrectional==1) {
            int kk=0; // bidrectional active
     }
-    else {
-        int kk=-1;
-    }
+    
     
     
     int kk=0;
