@@ -113,9 +113,9 @@ CoordinateList PathFinder::findPath(Coord2D startPos, Coord2D goalPos, int bidre
            int kk=0; // bidrectional active
     }
     
-    
-    
-    int kk=0;
+
+
+
     bool xy=detectCollision( startPos ) ;
     if( detectCollision( startPos ) )
     {
